@@ -13,4 +13,6 @@ Required tools:
 * openstack CLI
 * jq
 
+All commands can conveniently be run from CERN's LXPLUS environment.
+
 The labs omit the networking steps (VPC, floating IP, security groups) since these are not available in the CERN OpenStack Cloud.

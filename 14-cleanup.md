@@ -13,10 +13,10 @@ openstack server delete jh-k8s-cp-{1..3} jh-k8s-worker-1 # jh-k8s-worker-2 jh-k8
 ```sh
 export OS_REGION_NAME=sdn1
 
-openstack loadbalancer pool list | grep jh-k8s
+openstack loadbalancer pool list | grep k8s-api-servers
 openstack loadbalancer pool delete <UUID>
 
-openstack loadbalancer listener list | grep jh-k8s
+openstack loadbalancer listener list | grep k8s-api
 openstack loadbalancer listener delete <UUID>
 
 openstack loadbalancer list | grep jh-k8s

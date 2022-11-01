@@ -83,7 +83,6 @@ done
 ## Verification
 
 ```sh
-
 ssh ubuntu@jh-k8s-cp-3 sudo ETCDCTL_API=3 etcdctl member list \
   --endpoints=https://127.0.0.1:2379 \
   --cacert=/etc/etcd/ca.pem \
@@ -93,7 +92,7 @@ ssh ubuntu@jh-k8s-cp-3 sudo ETCDCTL_API=3 etcdctl member list \
 
 ## Reset
 
-(in case something went wrong an etcd did start cleanly)
+Note: only to be used in case something went wrong / etcd did start cleanly.
 
 ```sh
 for instance in jh-k8s-cp-{1..3}; do

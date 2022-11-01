@@ -2,7 +2,7 @@
 
 <https://github.com/kelseyhightower/kubernetes-the-hard-way/blob/79a3f79b27bd28f82f071bb877a266c2e62ee506/docs/09-bootstrapping-kubernetes-workers.md>
 
-Note: in this case I'm just using one worker node because it serves the same purpose
+Note: I'm just using one worker node because it serves the same purpose.
 
 ## Provision Kubernetes Worker Node
 

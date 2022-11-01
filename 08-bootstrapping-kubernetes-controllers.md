@@ -157,7 +157,7 @@ done
 
 Adjusted to `v1` due to <https://github.com/kelseyhightower/kubernetes-the-hard-way/issues/687>
 
-Latest reference for kube scheduler config: https://kubernetes.io/docs/reference/scheduling/config/
+Latest reference for kube-scheduler config: https://kubernetes.io/docs/reference/scheduling/config/
 
 ## Start the Controller Services
 
@@ -233,7 +233,7 @@ EOF
 
 ## The Kubernetes Frontend Load Balancer
 
-Add members to loadbalancer created in 03-compute-resources.md
+Add members to loadbalancer created in <03-compute-resources.md>
 
 ```sh
 for instance in jh-k8s-cp-{1..3}; do
