@@ -1,0 +1,10 @@
+*.csr
+*.gz
+*.json
+*.kubeconfig
+*.pem
+*.txt
+*.yaml
+bin/
+env.sh
+kubernetes
